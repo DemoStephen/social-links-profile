@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+}
+@font-face {
+  font-family: "inter";
+  src: url("./fonts/static/Inter-Regular.ttf") format(truetype);
+}
+@font-face {
+  font-family: "inter-Bold";
+  src: url("./fonts/static/Inter-Bold.ttf") format(truetype);
+}
+@font-face {
+  font-family: "inter-Semi-Bold";
+  src: url("./fonts/static/Inter-SemiBold.ttf") format(truetype);
+}
